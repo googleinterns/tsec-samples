@@ -1,0 +1,21 @@
+{
+  "name": "tsec-samples",
+  "version": "1.0.0",
+  "description": "**This is not an officially supported Google product.**",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "sso://user/koto/tsec-samples"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.0.3"
+  }
+}

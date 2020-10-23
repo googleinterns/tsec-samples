@@ -1,0 +1,20 @@
+{
+  "name": "tsec-fixer",
+  "version": "1.0.0",
+  "description": "**This is not an officially supported Google product.**",
+  "main": "./lib/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "sso://user/koto/tsec-samples"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}

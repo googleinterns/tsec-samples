@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "strict": true,
+      "module": "CommonJS",
+      "target": "es5",
+      "outDir": "lib",
+      "lib": [
+        "DOM",
+        "es2017"
+      ],
+      "sourceMap": true,
+      "plugins": [
+        {
+          // the path is relative to TS server, "../../" points to the root dir
+          "name": "../../app/node_modules/tsec/lib/tsec_lib/language_service_plugin.js"
+        }
+      ]
+    },
+    "exclude": [
+      "node_modules"
+    ]
+  }
